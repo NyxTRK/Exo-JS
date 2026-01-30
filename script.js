@@ -90,32 +90,32 @@
 //     btnClick.style.backgroundColor = "#fff"
 // })
 
-const titre = document.querySelector("#title")
-const zone = document.querySelector("#zone")
-const btnAjouter = document.querySelector("#add")
-const btnSupprimer = document.querySelector('#delete')
+// const titre = document.querySelector("#title")
+// const zone = document.querySelector("#zone")
+// const btnAjouter = document.querySelector("#add")
+// const btnSupprimer = document.querySelector('#delete')
 
-titre.textContent = "Nouveau titre !"
-zone.innerHTML =
-
-
-`<ul>
-    <li>Premier element</li>
-    <li>Deuxième element</li>
-    <li>Troisième element</li>
-</ul>`
+// titre.textContent = "Nouveau titre !"
+// zone.innerHTML =
 
 
-btnAjouter.addEventListener("click", () => {
-    const p = document.createElement("p")
-    p.textContent = "Nouveau paragraphe"
-    zone.appendChild(p)
-})
+// `<ul>
+//     <li>Premier element</li>
+//     <li>Deuxième element</li>
+//     <li>Troisième element</li>
+// </ul>`
 
-btnSupprimer.addEventListener("click", () => {
-    const paragraphes = zone.querySelectorAll("p")
-    if (paragraphes.length > 0) {
-        paragraphes[paragraphes.length -1].remove()
-    }
-})
+
+// btnAjouter.addEventListener("click", () => {
+//     const p = document.createElement("p")
+//     p.textContent = "Nouveau paragraphe"
+//     zone.appendChild(p)
+// })
+
+// btnSupprimer.addEventListener("click", () => {
+//     const paragraphes = zone.querySelectorAll("p")
+//     if (paragraphes.length > 0) {
+//         paragraphes[paragraphes.length -1].remove()
+//     }
+// })
 
